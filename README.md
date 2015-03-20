@@ -9,8 +9,7 @@ Source Tree
 	+	game.coffee
 +	prefabs/
 	+	Player.coffee
-	+	game.coffee
-+	
++	game.coffee	
 
 
 Node.js and Npm required
