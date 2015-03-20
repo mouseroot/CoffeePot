@@ -2,9 +2,14 @@
 Phaser Template in CoffeeScript
 
 Source Tree
-+	states
++	states/
 	+	boot.coffee
-+	prefabs
+	+	load.coffee
+	+	menu.coffee
+	+	game.coffee
++	prefabs/
+	+	Player.coffee
+	+	game.coffee
 +	
 
 
