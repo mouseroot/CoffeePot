@@ -13,8 +13,7 @@ Source Tree
 
 
 Node.js and Npm required
-	npm install
 
-To run from local grunt module (windows)
+	npm install
 	node_modules/.bin/grunt
-	npm start
+
