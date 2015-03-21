@@ -1,0 +1,11 @@
+{
+	"name": "CoffeePot",
+	"private": true,
+	"dependencies": {
+		"grunt": "latest",
+		"grunt-cli": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-contrib-coffee": "latest",
+		"grunt-contrib-uglify": "latest"
+	}
+}
