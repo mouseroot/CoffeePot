@@ -2,7 +2,7 @@
 CoffeePot.game = new Phaser.Game 800, 600, Phaser.CANVAS, ""
 
 # Init Debugger plugin
-CoffeePot.game.add.plugin Phaser.Plugin.Debug
+CoffeePot.game.plugin.add Phaser.Plugin.Debug
 
 # Add states
 CoffeePot.game.state.add "boot", CoffeePot.Boot
