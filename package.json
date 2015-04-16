@@ -6,6 +6,7 @@
 		"grunt-cli": "latest",
 		"grunt-contrib-watch": "latest",
 		"grunt-contrib-coffee": "latest",
-		"grunt-contrib-uglify": "latest"
+		"grunt-contrib-uglify": "latest",
+		"grunt-contrib-connect": "latest"
 	}
 }
