@@ -39,7 +39,21 @@ module.exports = function(grunt) {
 						"src/states/*.coffee",
 						"src/prefabs/*.coffee"
 				],
-				tasks: ["coffee","uglify"]
+				tasks: ["coffee","uglify"],
+				options: {
+					livereload: 1337
+				}
+			}
+		},
+
+		//Connect Server Task
+		connect: {
+			server: {
+				options: {
+					port: 8000,
+					base: __dirname,
+					open: true
+				}
 			}
 		}
 
@@ -49,7 +63,8 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-coffee");
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 	grunt.loadNpmTasks("grunt-contrib-watch");
+	grunt.loadNpmTasks("grunt-contrib-connect");
 
-	grunt.registerTask("default","Compiles Coffeescript files", ["coffee","uglify","watch"]);
+	grunt.registerTask("default","Compiles Coffeescript files", ["coffee","uglify","connect","watch"]);
 	grunt.registerTask("compile-only","",["coffee"]);
 };
